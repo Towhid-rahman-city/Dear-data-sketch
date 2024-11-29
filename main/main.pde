@@ -24,7 +24,7 @@ String[] octoberDates = generateDates("October", 31);
 String[] novemberDates = generateDates("November", 30);
 
 void setup() {
-  size(800, 600);
+  size(1400, 600);
   
   // Load sound files
   lowStepSound = new SoundFile(this, "lowStep.mp3");
