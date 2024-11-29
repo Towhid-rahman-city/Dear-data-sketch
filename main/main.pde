@@ -91,10 +91,10 @@ String[] generateDates(String month, int daysInMonth) {
 // Function to play sound based on the step count
 void playStepSound(int steps) {
   if (steps <= 6000) {
-    lowStepSound.play();  // Play sound for low activity
+    lowStepSound.play();  // Play sound for low steps
   } else if (steps <= 10000) {
-    moderateStepSound.play();  // Play sound for moderate activity
+    moderateStepSound.play();  // Play sound for moderate steps
   } else {
-    highStepSound.play();  // Play sound for high activity
+    highStepSound.play();  // Play sound for high steps
   }
 }
